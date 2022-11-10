@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Palette{
-  static Color kBackgroungColor =Color(0xff3484ED);
+  static  Color kBackgroungColor =Color(0xff3484ED);
   static Color kButtonColor   =Color(0xff252525);
   static Color kButtonColor2  =Color(0xffF9F9F9);
   static Color kSuccessColor =Color(0xffD9FFDF);
@@ -11,5 +11,6 @@ class Palette{
   static Color kProcessingColor =Color(0xffFFF4D9);
   static Color kProcessingColor2 =Color(0xff9F9217);
   static Color kIconColor =Color(0xff3484ED);
+  static Color kColor =Color(0xffF5F5F5);
 
 }

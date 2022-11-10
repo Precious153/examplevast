@@ -1,5 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:examplevast/screens/homepage.dart';
+import 'package:examplevast/screens/wallet_top.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/':(context)=>HomePage(),
+        '/':(context)=>WalletTop(),
 
       },
     );
